@@ -2,12 +2,21 @@
 //  CHViewController.h
 //  BullsEye
 //
-//  Created by Tingyu on 14-9-3.
-//  Copyright (c) 2014年 Cyrus Huang. All rights reserved.
+//  Created by Cyrus on 14-9-3.
+//  Copyright (c) 2014 Cyrus Huang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface CHViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet UISlider *slider;
+@property (nonatomic, weak) IBOutlet UILabel *targetLabel;
+@property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
+@property (nonatomic, weak) IBOutlet UILabel *roundLabel;
+
+- (IBAction)showAlert;
+- (IBAction)sliderMoved:(UISlider *)slider;
+- (IBAction)startOver;
 
 @end
