@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CHViewController : UIViewController
+@interface CHViewController : UIViewController <UIAccelerometerDelegate>
 
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
@@ -18,5 +18,6 @@
 - (IBAction)showAlert;
 - (IBAction)sliderMoved:(UISlider *)slider;
 - (IBAction)startOver;
+
 
 @end
