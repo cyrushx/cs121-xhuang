@@ -178,8 +178,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="hXI-A2-9iS">
-                                <rect key="frame" x="-10" y="0.0" width="578" height="320"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="hXI-A2-9iS">
+                                <rect key="frame" x="0.0" y="0.0" width="578" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceX-1r-lj2">
@@ -210,6 +210,7 @@
                             <constraint firstItem="34E-nx-SAX" firstAttribute="top" secondItem="tbV-6O-He8" secondAttribute="bottom" constant="20" id="3MQ-VM-5g4"/>
                             <constraint firstAttribute="trailing" secondItem="34E-nx-SAX" secondAttribute="trailing" constant="20" id="4t5-Td-MF2"/>
                             <constraint firstItem="JKD-I0-upv" firstAttribute="top" secondItem="ceX-1r-lj2" secondAttribute="bottom" constant="20" id="7Va-uB-5I4"/>
+                            <constraint firstItem="hXI-A2-9iS" firstAttribute="leading" secondItem="cV3-WS-RPD" secondAttribute="leading" id="97d-UW-Yho"/>
                             <constraint firstItem="34E-nx-SAX" firstAttribute="leading" secondItem="cV3-WS-RPD" secondAttribute="leading" constant="20" id="BPM-Sm-72W"/>
                             <constraint firstItem="JKD-I0-upv" firstAttribute="top" secondItem="hXI-A2-9iS" secondAttribute="bottom" id="FBg-g1-Tg6"/>
                             <constraint firstAttribute="centerX" secondItem="ceX-1r-lj2" secondAttribute="centerX" id="JSd-0D-LwN"/>
